@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-EMILE_VERSION = 566c53c941aa5755d37907f9ca24c85d88bb1a72
+EMILE_VERSION = d798e1b03187bab8dc391e5dc4b0315e59ca7ef8
 #EMILE_SITE = https://github.com/vivier/EMILE.git
 EMILE_SITE = https://github.com/fifteenhex/EMILE.git
 EMILE_SITE_METHOD = git
