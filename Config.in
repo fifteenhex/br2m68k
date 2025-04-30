@@ -1,1 +1,2 @@
+source "$BR2_EXTERNAL_M68K_PATH/package/bstoolbox/Config.in"
 source "$BR2_EXTERNAL_M68K_PATH/package/emile/Config.in"
