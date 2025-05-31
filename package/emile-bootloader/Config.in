@@ -1,0 +1,4 @@
+config BR2_PACKAGE_EMILE_BOOTLOADER
+	bool "EMILE (bootloader part)"
+	help
+	  EMILE linux m68k bootloader

@@ -1,4 +1,11 @@
 config BR2_PACKAGE_EMILE
 	bool "EMILE"
+	select BR2_PACKAGE_EMILE_BOOTLOADER
 	help
 	  EMILE linux m68k bootloader
+
+config BR2_PACKAGE_HOST_EMILE
+	bool "EMILE host tools"
+	select BR2_PACKAGE_EMILE_BOOTLOADER
+	help
+	  EMILE host tools

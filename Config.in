@@ -1,2 +1,9 @@
 source "$BR2_EXTERNAL_M68K_PATH/package/bstoolbox/Config.in"
 source "$BR2_EXTERNAL_M68K_PATH/package/emile/Config.in"
+source "$BR2_EXTERNAL_M68K_PATH/package/emile-bootloader/Config.in"
+
+config BR2_TARGET_ROOTFS_MACCD
+        bool "Create a bootable Mac CD image"
+	select BR2_PACKAGE_HOST_EMILE
+        help
+          x
