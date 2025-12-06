@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-EMILE_BOOTLOADER_VERSION = 4460483d6ce176dad65e8d041945ececac2d5ae7
+EMILE_BOOTLOADER_VERSION = 5f3c60b26b3f809546081a7659089549df8b32e8
 #EMILE_BOOTLOADER_SITE = https://github.com/vivier/EMILE.git
 EMILE_BOOTLOADER_SITE = https://github.com/fifteenhex/EMILE.git
 EMILE_BOOTLOADER_SITE_METHOD = git
